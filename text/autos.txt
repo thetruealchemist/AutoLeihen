@@ -1,0 +1,31 @@
+0,BMW,120,rot
+1,Audi,150,schwarz
+2,Mercedes,140,blau
+3,Volkswagen,130,weiß
+4,Ford,160,grau
+5,Opel,125,silber
+6,Skoda,135,grün
+7,Porsche,180,rot
+8,Volvo,145,blau
+9,Tesla,200,schwarz
+10,Honda,130,weiß
+11,Hyundai,140,grau
+12,Peugeot,125,rot
+13,Renault,135,silber
+14,Kia,140,grün
+15,Ferrari,220,rot
+16,Maserati,210,schwarz
+17,Lexus,160,blau
+18,Jaguar,170,weiß
+19,Lamborghini,240,gelb
+20,Seat,130,grau
+21,Nissan,150,schwarz
+22,Alfa Romeo,145,rot
+23,Jeep,160,grün
+24,Bugatti,300,blau
+25,Chevrolet,180,rot
+26,Dodge,190,schwarz
+27,Mini,125,gelb
+28,Land Rover,160,weiß
+29,Subaru,170,blau
+30,Mitsubishi,150,silber
