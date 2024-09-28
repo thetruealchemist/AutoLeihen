@@ -7,7 +7,7 @@ from my_functions import (print_menu,
                           print_list, 
                           write_to_file)
 
-def main():
+def main() -> None:
      
     people: list[str] = []
     autos: list[str] = []
