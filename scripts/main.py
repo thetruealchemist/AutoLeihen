@@ -9,11 +9,11 @@ from my_functions import (print_menu,
 
 def main():
      
-    people = []
-    autos_from_file = []
+    people: list[str] = []
+    autos: list[str] = []
 
-    autos_datei = "../text/autos.txt"
-    people_datei = "../text/people.txt"
+    autos_datei: str = "../text/autos.txt"
+    people_datei: str = "../text/people.txt"
 
     while True:
         os.system('cls')
@@ -66,7 +66,7 @@ def main():
                 geschw: str = input("Geschwindigkeit: ")
                 farbe: str = input("Farbe: ")
                 auto: Auto = Auto(modell, geschw, farbe)
-                autos_from_file.append(auto)
+                autos.append(auto)
                 print(f"Das Auto {auto} wurde angelegt.")
                 print_line(10)
                 wait_for_input(key=0)
@@ -92,7 +92,7 @@ def main():
                         id += 1  
                 people.clear()                          
                 
-                print("Speicherung der Autos durchgeführt")
+                print("Speicherung der People durchgeführt")
                 print_line(10)
                 wait_for_input(key=0)            
                 break
@@ -106,7 +106,7 @@ def main():
                 ids: list[int] = [int(auto[0]) for auto in autos_from_file]
 
                 with open(autos_datei, "a") as f:
-                    for auto in autos_from_file:
+                    for auto in autos:
                         text: str = f"{id},{auto.modell},{auto.geschw},{auto.farbe}\n"
                         f.write(text)
                         id += 1
@@ -174,7 +174,7 @@ def main():
                     if int(auto[0]) != auto_id_to_delete:
                         rows_to_keep.append(auto)
 
-                write_to_file(file=people_datei, l=rows_to_keep)    
+                write_to_file(file=autos_datei, l=rows_to_keep)    
 
                 print(f"Das Auto {auto_id_to_delete} wurde geloescht.")
                 print_line(10)

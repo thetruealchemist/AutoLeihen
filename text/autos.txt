@@ -15,7 +15,6 @@
 14,Kia,140,grün
 15,Ferrari,220,rot
 16,Maserati,210,schwarz
-17,Lexus,160,blau
 18,Jaguar,170,weiß
 19,Lamborghini,240,gelb
 20,Seat,130,grau

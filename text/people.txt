@@ -13,8 +13,4 @@
 12,Christian Bauer,8
 13,Laura Krause,6
 14,Stefan Lehmann,14
-15,Tobias Scholz,1916
-16,Omer Baig,10
-17,Omer Baig 2,13
-18,hassan baig,16
-19,Hssan Baig,17
+15,Tobias Scholz,19
